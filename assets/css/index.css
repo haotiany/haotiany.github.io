@@ -23,13 +23,6 @@ body {
 	margin: 6vh 6vw;
 }
 
-@media screen and (min-width: 1400px) {
-	body {
-		width: 1300px;
-		margin: 6vh auto;
-	}
-}
-
 a {
 	color: var(--main-light);
 	text-decoration: none;
@@ -123,50 +116,4 @@ h3 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 600px) {
-	body {
-		font-size: 2.25vh;
-	}
-
-	#logo {
-		width: 14vw;
-	}
-
-	#navbar-items {
-		display: none;
-	}
-
-	#menu-icon {
-		width: 8vw;
-		display: inline;
-	}
-
-	#mobile-nav {
-		display: flex;
-		flex-direction: column;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-
-	#mobile-nav .item {
-		color: var(--main-dark);
-	}
-
-	h2 {
-		font-size: 3.5vh;
-		display: block;
-		width: 80vw;
-	}
-
-	.media {
-		margin-right: 6vw;
-	}
-
-	h3 {
-		text-align: center;
-	}
 }
