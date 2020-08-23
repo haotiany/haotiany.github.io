@@ -51,12 +51,25 @@
 	h3 {
 		text-align: center;
 	}
+
+	/* ABOUT ME */
+	#pic-descript {
+		flex-direction: column;
+	}
+
+	#korea {
+		height: 50vh;
+	}
+
+	#description {
+		width: 88vw;
+	}
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
 	body {
 		font-size: 4vh;
-		width: 68vw;
+		width: 76vw;
 		margin: 4vh auto;
 	}
 
@@ -95,5 +108,27 @@
 	#mobile-nav .item {
 		color: var(--main-dark);
 		font-size: 3.5vw;
+	}
+
+	/* ABOUT ME */
+	#pic-descript {
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 4vw;
+	}
+
+	#korea {
+		height: 88vh;
+	}
+
+	#description {
+		font-size: 3vw;
+		width: 74vw;
+	}
+
+	#description p {
+		line-height: 8vh;
 	}
 }
