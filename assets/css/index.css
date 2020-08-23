@@ -1,0 +1,172 @@
+:root {
+	--main-dark: #1C1C1C;
+	--main-light: #7C878E;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:after,*:before{
+	box-sizing: inherit;
+}
+
+body, html {
+	margin: 0px;
+	font-family: Dosis, sans-serif;
+	font-weight: 400;
+	font-size: 1.8vh;
+	color: var(--main-dark);
+}
+
+body {
+	margin: 6vh 6vw;
+}
+
+@media screen and (min-width: 1400px) {
+	body {
+		width: 1300px;
+		margin: 6vh auto;
+	}
+}
+
+a {
+	color: var(--main-light);
+	text-decoration: none;
+}
+
+.roboto {
+	font-family: Roboto, Dosis;
+	color: var(--main-light);
+}
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {
+	width: 4vw;
+}
+
+#menu-icon {
+	display: none;
+	z-index: 2;
+}
+
+#navbar-items {
+	display: flex;
+	flex-direction: row;
+}
+
+.item {
+	margin-left: 2.5vw;
+}
+
+.item.web:after {
+	content: '';
+	width: 0;
+	height: 2px;
+	margin-top: -1px;
+	display: block;
+	right: 0;
+	background: var(--main-dark);
+	transition: width .3s ease;
+	opacity: 0.75;
+}
+  
+.item.web:hover:after {
+	width: 100%;
+	left: 0;
+	background: var(--main-dark);
+	opacity: 0.75;
+}
+
+#mobile-nav {
+	position: absolute;
+	visibility: hidden;
+}
+
+#introduction {
+	width: 68vw;
+	height: 68vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h2 {
+	font-size: 5vh;
+	width: 44vw;
+	font-weight: 500;
+}
+
+.light {
+	color: var(--main-light);
+}
+
+.media {
+	height: 3vh;
+	margin-right: 2vw;
+	opacity: 0.75;
+	transition: opacity 0.2s;
+}
+
+#fb:hover, #ig:hover, #li:hover, #mail:hover {
+	opacity: 1;
+}
+
+h3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 2.25vh;
+	}
+
+	#logo {
+		width: 14vw;
+	}
+
+	#navbar-items {
+		display: none;
+	}
+
+	#menu-icon {
+		width: 8vw;
+		display: inline;
+	}
+
+	#mobile-nav {
+		display: flex;
+		flex-direction: column;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+
+	#mobile-nav .item {
+		color: var(--main-dark);
+	}
+
+	h2 {
+		font-size: 3.5vh;
+		display: block;
+		width: 80vw;
+	}
+
+	.media {
+		margin-right: 6vw;
+	}
+
+	h3 {
+		text-align: center;
+	}
+}
