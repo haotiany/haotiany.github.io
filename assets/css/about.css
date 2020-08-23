@@ -1,16 +1,14 @@
 #everything {
-	margin: 6vh auto;
-	/* height: 76vh; */
+	margin: 0 auto;
 }
 
 h1 {
 	font-size: 5vh;
 	font-weight: 500;
-	margin-bottom: 8vh;
 }
 
 p {
-	line-height: 3.5vh;
+	line-height: 4.75vh;
 }
 
 #pic-descript {
@@ -22,16 +20,10 @@ p {
 }
 
 #description {
-	font-size: 2.5vh;
+	font-size: 3.25vh;
 	width: 40vw;
 }
 
 #korea {
-	height: 60vh;
-}
-
-@media screen and (max-width: 600px) {
-	h1 {
-		transform: translateX(-6vw);
-	}
+	height: 90vh;
 }
