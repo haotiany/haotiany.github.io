@@ -13,15 +13,25 @@
 
 	#description {
 		font-size: 2.5vh;
+		width: 38vw;
+	}
+	
+	#korea {
+		height: 82vh;
+	}
+
+	.media {
+		height: 3.25vh;
+	}
+}
+
+@media screen and (min-width: 1900px) {
+	#description {
 		width: 32vw;
 	}
 	
 	#korea {
 		height: 80vh;
-	}
-
-	.media {
-		height: 3.25vh;
 	}
 }
 
