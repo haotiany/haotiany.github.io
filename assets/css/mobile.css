@@ -26,7 +26,7 @@
 }
 
 @media screen and (min-width: 1900px) {
-	body {
+	#everything {
 		margin: 0 auto;
 	}
 
