@@ -8,7 +8,7 @@
 @media screen and (min-width: 1600px) {
 	#everything {
 		width: 1250px;
-		margin: 6vh auto;
+		margin: 2vh auto;
 	}
 
 	#description {
@@ -26,6 +26,10 @@
 }
 
 @media screen and (min-width: 1900px) {
+	body {
+		margin: 0 auto;
+	}
+
 	#description {
 		width: 32vw;
 	}
