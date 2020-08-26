@@ -100,10 +100,6 @@
 	}
 
 	/* EXPERIENCE */
-	#everything {
-		transform: translateX(4vw);
-	}
-
 	.row {
 		flex-direction: column;
 	}
@@ -116,8 +112,12 @@
 		font-size: 3vh;
 	}
 
-	.position {
-		width: 80vw;
+	.position, hr {
+		width: 86vw;
+	}
+
+	hr {
+		transform: translateX(-3vw);
 	}
 }
 
