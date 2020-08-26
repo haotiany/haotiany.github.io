@@ -2,15 +2,6 @@
 	margin: 0 auto;
 }
 
-h1 {
-	font-size: 5vh;
-	font-weight: 500;
-}
-
-p {
-	line-height: 4.75vh;
-}
-
 #pic-descript {
 	display: flex;
 	flex-direction: row;

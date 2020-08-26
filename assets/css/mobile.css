@@ -82,10 +82,6 @@
 		margin-right: 6vw;
 	}
 
-	h3 {
-		text-align: center;
-	}
-
 	.active {
 		font-weight: bold;
 	}
@@ -101,6 +97,27 @@
 
 	#description {
 		width: 88vw;
+	}
+
+	/* EXPERIENCE */
+	#everything {
+		transform: translateX(4vw);
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.img-div {
+		margin: 3vh 0px;
+	}
+
+	h2 {
+		font-size: 3vh;
+	}
+
+	.position {
+		width: 80vw;
 	}
 }
 
@@ -172,5 +189,51 @@
 
 	#description p {
 		line-height: 8vh;
+	}
+
+	/* EXPERIENCE */
+	.row {
+		flex-direction: column;
+	}
+
+	.img-div {
+		margin: 4vh 0px;
+	}
+
+	.row img {
+		height: 30vh;
+	}
+	
+	#panw {
+		height: 22vh;
+	}
+	
+	#wdd {
+		height: 22vh;
+	}
+	
+	#codeology {
+		height: 32vh;
+	}
+
+	h2 {
+		font-size: 7vh;
+	}
+	
+	h3 {
+		font-size: 6vh;
+	}
+	
+	h4 {
+		font-size: 4vh;
+	}
+	
+	p {
+		line-height: 8vh;
+		font-size: 6vh;
+	}
+
+	.position {
+		width: 74vw;
 	}
 }
